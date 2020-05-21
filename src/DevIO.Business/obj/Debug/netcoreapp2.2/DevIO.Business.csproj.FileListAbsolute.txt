@@ -16,3 +16,12 @@ C:\Git\Projetos Pessoais\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreap
 C:\Git\Projetos Pessoais\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
 C:\Git\Projetos Pessoais\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.dll
 C:\Git\Projetos Pessoais\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.pdb
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.deps.json
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.dll
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.pdb
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csprojAssemblyReference.cache
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfoInputs.cache
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.dll
+C:\Git\Projetos Pessoais\Projetos DotNet\MinhaApiCompleta\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.pdb

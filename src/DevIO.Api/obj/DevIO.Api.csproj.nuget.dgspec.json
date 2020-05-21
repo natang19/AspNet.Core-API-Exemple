@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj": {}
+    "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj": {}
   },
   "projects": {
-    "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj": {
+    "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectUniqueName": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
         "projectName": "DevIO.Api",
-        "projectPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
         "packagesPath": "C:\\Users\\Natan Guedes\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Api\\obj\\",
+        "outputPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
               },
-              "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
-                "projectPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
+              "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+                "projectPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
               }
             }
           }
@@ -69,6 +69,12 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.9.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[2.2.4, )"
@@ -88,14 +94,14 @@
         }
       }
     },
-    "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\Natan Guedes\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\obj\\",
+        "outputPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -150,14 +156,14 @@
         }
       }
     },
-    "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
         "projectName": "DevIO.Data",
-        "projectPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
         "packagesPath": "C:\\Users\\Natan Guedes\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Data\\obj\\",
+        "outputPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,8 +182,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
               }
             }
           }

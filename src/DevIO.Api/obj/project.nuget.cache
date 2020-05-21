@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fMm0wzR4Dr6m65y2rHIZM0fzE9jiRzeXWtsRQdr4Pkgv+xxMCxvLzqLcTkwWIoyvMxJmPhh9ZCbIEJJE8FO4Zw==",
+  "dgSpecHash": "isgUPOTu1YaIZcm1JfqjuAZsXfzlPIa1a6CL4WGtLSL/4bzU8Z4Meo/TqD0J+QIaXQPLlP0qfuLeq7yrbSeOeA==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
+  "projectFilePath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\automapper\\8.1.0\\automapper.8.1.0.nupkg.sha512",
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.0\\automapper.extensions.microsoft.dependencyinjection.6.1.0.nupkg.sha512",
@@ -179,6 +179,7 @@
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.typescript.msbuild\\3.9.2\\microsoft.typescript.msbuild.3.9.2.nupkg.sha512",
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\2.2.4\\microsoft.visualstudio.web.codegeneration.2.2.4.nupkg.sha512",
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\2.2.4\\microsoft.visualstudio.web.codegeneration.contracts.2.2.4.nupkg.sha512",
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\2.2.4\\microsoft.visualstudio.web.codegeneration.core.2.2.4.nupkg.sha512",

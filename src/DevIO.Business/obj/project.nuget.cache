@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "stzv4pxhkVjjxVfodkcper1BYfEZ0lvMQv8LT0NIEHSernrm15K5GdG9/oRuJPrxqDUokeq8w+oy7afsXd63fA==",
+  "dgSpecHash": "EilO3BYZOVgz5xUG87CwZ/O29wFTQfniX30/RYL9f+rtR9DgO10OF+0jUw2E7kS4VTDKTXb72qWefrDaco8+mw==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Projetos Pessoais\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "C:\\Git\\Projetos Pessoais\\Projetos DotNet\\MinhaApiCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\fluentvalidation\\8.3.0\\fluentvalidation.8.3.0.nupkg.sha512",
     "C:\\Users\\Natan Guedes\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
