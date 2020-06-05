@@ -2,12 +2,11 @@
 using DevIO.Api.ViewModels;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace DevIO.Api.Controllers
@@ -59,6 +58,23 @@ namespace DevIO.Api.Controllers
             return CustomResponse(produtoViewModel);
         }
 
+        [HttpPost("adicionar")]
+        public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(ProdutoImagemViewModel produtoViewModel)
+        {
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            var imagemPrefixo = Guid.NewGuid() + "_";
+            if (!await UploadDeArquivoAlternativo(produtoViewModel.ImagemUpload, imagemPrefixo))
+            {
+                return CustomResponse(produtoViewModel);
+            }
+
+            produtoViewModel.Imagem = imagemPrefixo + produtoViewModel.ImagemUpload.FileName;
+            await _produtoService.Adicionar(_mapper.Map<Produto>(produtoViewModel));
+
+            return CustomResponse(produtoViewModel);
+        }
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)
         {
@@ -95,6 +111,35 @@ namespace DevIO.Api.Controllers
             }
 
             System.IO.File.WriteAllBytes(filePath, imgDataByteArray);
+
+            return true;
+        }
+
+        private async Task<bool> UploadDeArquivoAlternativo(IFormFile arquivo, string imagemPrefixo)
+        {
+            //var imgDataByteArray = Convert.FromBase64String(arquivo);
+
+            if (arquivo == null || arquivo.Length == 0)
+            {
+                NotificarErro("Forneceça uma imagem para este produto!");
+                //NotificarErro("Forneça uma imagem para este produto!");
+                return false;
+            }
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "C:/Git/Projetos Pessoais/Projetos DotNet/app/demo-webapi/src/assets", imagemPrefixo + arquivo.FileName);
+
+            if (System.IO.File.Exists(filePath))
+            {
+                //NotificarErro("já existe um arquivo com este nome!");
+                NotificarErro("Já existe um arquivo com este nome!");
+                return false;
+            }
+
+            //System.IO.File.WriteAllBytes(filePath, imgDataByteArray);
+            using(var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await arquivo.CopyToAsync(stream);
+            }
 
             return true;
         }
